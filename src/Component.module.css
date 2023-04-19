@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: rgba(236, 236, 236, 255);
+  height: 30vh;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2%;
+}
+
+.main p {
+  font-size: xx-small;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.main h1 {
+  line-height: 0;
+}
+
+.content {
+  height: 25vh;
+  width: 25vh;
+  background-color: rgba(252, 194, 0, 255);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 6%;
+  padding: 0.4rem;
+  margin-top: 6vh;
+  color: white;
+}
